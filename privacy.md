@@ -49,7 +49,7 @@ We use your data to:
 ## Who can see what
 
 - **Only you:** your food log, weigh-ins, measurements, progress photos, Kitchen and profile details, unless you choose to share them.
-- **Anyone signed in to Fuel:** your public name and profile picture, which people can find by searching for your name, and your posts and replies in the feed. To stay out of search, turn off Let people find me in Profile, then Privacy & data. People who already know you through a chat, your friends list or the feed still see your name and picture.
+- **Anyone signed in to Fuel:** your public name and profile picture, which people can find by searching for your name, and your posts and replies in the feed. To stay out of search, turn off Let people find me in Profile, then Privacy & data. Your friends, and people who know you through a chat or the feed, still see your name and picture. Anyone you give your add code can still find you and send a friend request.
 - **Your friends, and people you've asked to be friends:** your card. It shows your name, your picture, a line you write, and the things you choose to show on it, such as your streak, your recipes, your goal or your recent weight. Your goal and weight stay off unless you turn them on.
 - **People in a chat with you:** the messages and pictures you send there.
 - **Your household:** what you share with it.
