@@ -21,7 +21,7 @@ Basalt Fuel ("Fuel") is an iPhone app for logging food, setting calorie and macr
 
 **Your profile.** Your name, sex, birthday, height, weight, activity level and goals. Fuel uses these to set your calorie and macro targets. Your birthday also confirms you're old enough to use Fuel.
 
-**What you log.** Foods, meals, recipes and saved foods; weigh-ins and body measurements; your Kitchen's stock, prep, plans, prices and budget; and your reminder times.
+**What you log.** Foods, meals, recipes and saved foods; water; weigh-ins and body measurements; your Kitchen's stock, prep, plans, prices and budget; and your reminder times.
 
 **Photos.** Your profile picture, meal and recipe photos, progress photos, and pictures you send in chats. Fuel only gets the photos you pick or take. It uses the camera to scan barcodes and to take progress photos. Your progress photos are backed up to storage that only your account can read.
 
