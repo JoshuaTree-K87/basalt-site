@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add me on Basalt Fuel</title>
+<meta name="description" content="Tap to open Basalt Fuel and add me.">
+<meta property="og:title" content="Add me on Basalt Fuel">
+<meta property="og:description" content="Tap to open it and say hello.">
+<meta property="og:image" content="https://joshuatree-k87.github.io/basalt-site/add-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root { --ground:#f2f2f7; --card:#fff; --ink:#0a0a0c; --mute:#6e6e76; --button:#0a0a0c; --button-ink:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --ground:#000; --card:#1c1c1e; --ink:#fff; --mute:#a0a0a8; --button:#fff; --button-ink:#000; } }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:16px; background:var(--ground); color:var(--ink);
+         font:16px/1.45 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  main { width:100%; max-width:380px; background:var(--card); border-radius:24px; padding:32px 24px; text-align:center; }
+  h1 { font-size:26px; line-height:1.2; margin:0 0 8px; letter-spacing:-.4px; }
+  p { margin:0; color:var(--mute); }
+  .code { font-size:28px; font-weight:700; letter-spacing:2px; color:var(--ink); margin:20px 0 4px; font-variant-numeric:tabular-nums; }
+  a.open { display:block; margin-top:24px; padding:15px; border-radius:999px; background:var(--button); color:var(--button-ink); font-weight:600; text-decoration:none; }
+  .foot { margin-top:18px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Add me on Basalt Fuel</h1>
+  <p id="lead">Opening Basalt Fuel…</p>
+  <div class="code" id="code" hidden></div>
+  <a class="open" id="open" hidden>Open in Basalt Fuel</a>
+  <p class="foot" id="foot">Don’t have it yet? Basalt Fuel is coming to the App Store. Once you have it, type the code in the search box in Messages.</p>
+</main>
+<script>
+  (function () {
+    var raw = new URLSearchParams(location.search).get('c') || '';
+    var c = raw.toUpperCase().replace(/[\s-]/g, '');
+    var lead = document.getElementById('lead');
+    if (!/^[2-9A-HJ-NP-Z]{8}$/.test(c)) {
+      lead.textContent = 'This link is missing its code. Ask them to send it again.';
+      document.getElementById('foot').hidden = true;
+      return;
+    }
+    var shown = document.getElementById('code');
+    shown.textContent = c.slice(0, 4) + '-' + c.slice(4);
+    shown.hidden = false;
+    var open = document.getElementById('open');
+    open.href = 'basalt://add/' + c;
+    open.hidden = false;
+    lead.textContent = 'Their add code:';
+    location.href = open.href;
+  })();
+</script>
+</body>
+</html>

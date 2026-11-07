@@ -49,7 +49,7 @@ We use your data to:
 ## Who can see what
 
 - **Only you:** your food log, weigh-ins, measurements, progress photos, Kitchen and profile details, unless you choose to share them.
-- **Anyone signed in to Fuel:** your public name and profile picture, which people can find by searching for your name, and your posts and replies in the feed. To stay out of search, turn off Let people find me in Profile, then Privacy & data. Your friends, and people who know you through a chat or the feed, still see your name and picture. Anyone you give your add code can still find you and send a friend request.
+- **Anyone signed in to Fuel:** your public name and profile picture, which people can find by searching for your name, and your posts and replies in the feed. To stay out of search, turn off Let people find me in Profile, then Edit my card. Your friends, and people who know you through a chat or the feed, still see your name and picture. Anyone you give your add card or code can still find you and send a friend request. The card holds your name, picture and a code, and its link can be opened by anyone you send it to.
 - **Your friends, and people you've asked to be friends:** your card. It shows your name, your picture, a line you write, and the things you choose to show on it, such as your streak, your recipes, your goal or your recent weight. Your goal and weight stay off unless you turn them on.
 - **People in a chat with you:** the messages and pictures you send there.
 - **Your household:** what you share with it.
@@ -91,7 +91,7 @@ If you can't get into the app, email us from your account's address and we'll de
 - **Export:** Profile, then Privacy & data, then Export your data. You can get a spreadsheet or the full file.
 - **Correct:** change your profile and what you've logged in the app.
 - **Permissions:** turn off camera, photos and notifications in iPhone Settings, and Apple Health in the Health app.
-- **Being found:** turn off Let people find me in Profile, then Privacy & data.
+- **Being found:** turn off Let people find me in Profile, then Edit my card.
 - **Block and report:** block someone or report a post or a message from the post or the chat.
 
 ## Your rights

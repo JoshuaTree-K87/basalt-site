@@ -28,7 +28,7 @@ Fuel can save the food you log and your weigh-ins to Apple Health. It doesn't re
 
 **Someone is bothering me, or a post breaks the rules.** Use Report on the post or message. You can block someone from there too, which hides them everywhere. We read every report.
 
-**I don't want people to find me.** Go to Profile, then Privacy & data, and turn off Let people find me. You won't show up in search. Your friends and chats stay the same. To let someone you choose add you, tap Share my add code on the same page and send it to them.
+**I don't want people to find me.** Go to Profile, then Edit my card, and turn off Let people find me. You won't show up in search. Your friends and chats stay the same. To let someone you choose add you, tap Share my add card on the same page and send it to them.
 
 ## Your data
 
